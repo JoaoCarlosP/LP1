@@ -1,0 +1,32 @@
+	== FUNÇÕES ==
+
+Uma parte do programa em que coloca os códigos
+
+1. Desenvolver a função
+
+//O que minha função vai fazer?
+//O que eu vou retornar para o main? Qual tipo de dado?
+
+
+float funcao_Renda(int Publico){
+	int RendaTotal
+	RendaTotal = Publico * 0.5;
+	return RendaTotal	//para retornar o valor em main
+}
+
+
+int main (){
+
+	int Publico;
+	float: Renda_Total;
+	
+	printf ("Qual o Publico Total?");
+	scanf ("%i", &Publico);
+
+	//chama a função
+	funcao_Renda(Publico);
+
+	printf("A renda total é: %f", RendaTotal)
+}
+
+void ==> é uma função onde NÃO tem retorno, só recebe valores, não devolve!
