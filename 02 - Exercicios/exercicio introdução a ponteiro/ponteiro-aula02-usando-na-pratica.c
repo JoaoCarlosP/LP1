@@ -12,7 +12,7 @@ int main()
     printf("\nEndereco do nome do vetor vetChar: %p", vetChar);
 
     for(int i = 0; i<5; i++)
-    {
+    {                                               //vetInt[]+i
         printf("\nValor do vetInt: %i Endereco: %p", *(vetInt+i), vetInt+i);
     }
     pont = vetInt;  //Aponta para o 1º indice do vetInt;
@@ -32,8 +32,5 @@ int main()
         printf("\n%c %p", *(vetChar+i), vetChar+i );
         p++;
     }
-
-
-
 
 }

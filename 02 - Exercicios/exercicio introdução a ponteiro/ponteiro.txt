@@ -1,0 +1,9 @@
+int i = 10, j = 20, k = 44 <-- variaveis
+int *p, *q <-- Ponteiros 
+
+p = &i;		(p recebe o ENDEREÇO de i)
+*p = 50		(p altera o conteúdo de i)
+
+k = k + *p;	
+(k recebe k + conteudo que o ponteiro p aponta, no caso, *p aponta para conteúdo de i, que é 50. Logo,
+k = k + 40)
